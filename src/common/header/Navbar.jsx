@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-
 import {Link} from "react-router-dom";
 const Navbar = () => {
     const [MobileMenu,setMobileMenu] = useState(false)
@@ -17,29 +16,22 @@ const Navbar = () => {
                     </div>
 
                     <div className="navlink">
-                        <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"} onClick={() => setMobileMenu(false)}>
+                        <ul>
                             <li>
-                                <Link to='/'>home</Link>
+                                <Link to='/'>Home</Link>
                             </li>
 
                             <li>
-                                <Link to='/pages'>pages</Link>
-                            </li>
-
-
-                            <li>
-                                <Link to='/user'>user account</Link>
+                                <Link to='user'>Users Account's</Link>
                             </li>
 
                             <li>
-                                <Link to='/track'>track my order </Link>
+                                <Link to='signIn'>Sign in</Link>
                             </li>
-
                             <li>
-                                <Link to='/contact'>contact</Link>
+                                <Link to='signUp'>Sign Up</Link>
                             </li>
                         </ul>
-
                         <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>
                             {
                                 MobileMenu? <i className={'fas fa-times close home-bth'}></i> :

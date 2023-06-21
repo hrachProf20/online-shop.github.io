@@ -110,6 +110,14 @@
     color: #fff;
 }
 
+
+@media (max-width: 2900px) and (min-width: 1400px) {
+    .img img{
+        width: 176px;
+        height: 240px;
+    }
+}
+
 @media (max-width: 1400px) and (min-width: 1000px) {
     .homeSlide h1 {
         font-size: 31px;
@@ -197,10 +205,3 @@
 
 }
 
-
-@media (max-width: 2900px) and (min-width: 1400px) {
-    .img img{
-        width: 176px;
-        height: 240px;
-    }
-}

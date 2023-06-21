@@ -39,16 +39,16 @@ const FlashCards = ({productItems, addToCart}) => {
         prevArrow: <PrevArrow />,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1500,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 2,
                     infinite: true,
                     dots: false
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 850,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
@@ -56,7 +56,7 @@ const FlashCards = ({productItems, addToCart}) => {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 600,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1

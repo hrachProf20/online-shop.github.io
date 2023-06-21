@@ -116,6 +116,10 @@
         height: auto;
     }
 
+    .container{
+        width: 80%;
+    }
+
 
     .shop .category .box {
         background: #f6f9fc;

@@ -11,6 +11,10 @@ import {useState} from "react";
 import Cart from "./common/cart/cart";
 import Sdata from "./components/shop/Sdata";
 import Footer from "./common/footer/Footer";
+import User from "./common/header/Menu/User";
+import Navbar from "./common/header/Navbar";
+import SignIn from "./components/SignIn/Sign-in";
+import SignUp from "./components/SignUp/SignUp";
 
 
 const App = () => {
@@ -46,7 +50,7 @@ const App = () => {
       <div>
           <Router>
               <Header cartItem = {cartItem}  />
-          <Switch>
+
               <Route path="/" exact>
                   <Pages productItems = {productItems} addToCart={addToCart} ShopItems={ShopItems}/>
               </Route>
@@ -54,9 +58,20 @@ const App = () => {
               <Route path="/cart" exact>
                   <Cart cartItem = {cartItem} addToCart={addToCart} decreaseQty={decreaseQty}/>
               </Route>
-          </Switch>
+              <Route path='/user'>
+                  <User />
+              </Route>
+
+              <Route path="/signIn">
+                  <SignIn/>
+              </Route>
+              <Route path='/signUp'>
+                  <SignUp/>
+              </Route>
+
               <Footer/>
           </Router>
+
       </div>
 
   )

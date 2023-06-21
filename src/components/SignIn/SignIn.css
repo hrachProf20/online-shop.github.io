@@ -1,0 +1,60 @@
+.header-sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+    width: 100%;
+}
+
+.signIn-item{
+    width: 30%;
+    height: 60%;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 11px -2px #003e63;
+    z-index: 9999;
+    display: flex;
+  justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.password{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+
+.password input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid #003e63;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.submit{
+    width: 180px;
+    display: flex;
+    align-items: end;
+    height: 150px;
+}
+
+.submit > button{
+    background: #003e63;
+    width:80%;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.signIn-item label{
+    color: #003e63;
+    font-size: 22px;
+}

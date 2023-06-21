@@ -1,0 +1,221 @@
+
+.users-item{
+    height: 80vh;
+    display: flex;
+}
+
+.users-item img{
+    width: 100%;
+    display: flex;
+}
+
+.users-desc{
+    width: 14%;
+    background:#f1f1f1;
+    box-shadow: 0 0 20px -10px;
+    height: 99%;
+    margin: 8px;
+}
+
+.desc-userAcc{
+    display: flex;
+    margin-left: 75px;
+}
+
+
+.desc-userAcc h1,
+label{
+color: #f6f9fc;
+    font-size: 18px;
+}
+
+.header-users{
+    height: 65%;
+    background: #003e63;
+    border-radius: 30px 30px 0 0;
+}
+
+.profession{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.profession h1{
+    color: white;
+}
+
+.profession p {
+    font-size: 15px;
+    color: #f6f9fc;
+}
+
+.About{
+    width: 85%;
+    display: flex;
+}
+
+.About h1{
+  color: #003e63;
+}
+
+.desc-about{
+    margin: 10px 30px;
+    display: flex;
+}
+
+.desc-about h1{
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.about-p{
+    width: 50%;
+}
+
+.about-p p{
+    font-size: 18px;
+    color: #003e63;
+    padding-top: 20px;
+}
+
+.icons{
+    display: flex;
+}
+
+.icons p {
+    color: gold;
+}
+
+
+
+.reyting label{
+    font-size: 18px;
+    color:#003e63;
+}
+
+.reyting{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-reyt{
+    background: #003e63;
+    width: 40%;
+}
+
+.range{
+    width: 300px;
+    height: 14px;
+    background: #c5c5c5;
+}
+
+.range-item{
+    width: 75%;
+    height: 14px;
+    background: #003e63;
+}
+
+.all-motivation h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.range-fear{
+    width: 300px;
+    height: 14px;
+    background: #c5c5c5;
+}
+
+.range-fear-item{
+    width: 20%;
+    height: 14px;
+    background: #003e63;
+}
+
+
+.range-Growth{
+    width: 300px;
+    height: 14px;
+    background: #c5c5c5;
+}
+
+.range-Growth-item{
+    width: 45%;
+    height: 14px;
+    background: #003e63;
+}
+
+
+.range-power{
+    width: 300px;
+    height: 14px;
+    background: #c5c5c5;
+}
+
+.range-power-item{
+    width: 30%;
+    height: 14px;
+    background: #003e63;
+}
+
+
+.range-Social{
+    width: 300px;
+    height: 14px;
+    background: #c5c5c5;
+    margin-bottom: 70px;
+}
+
+.range-Social-item{
+    width: 90%;
+    height: 14px;
+    background: #003e63;
+}
+.brand-title{
+    height: 100px;
+    display: flex;
+    align-items: end;
+}
+
+.brand-title h2 {
+    font-size: 25px;
+    color: #003e63;
+}
+.brand-img{
+    display: flex;
+    width: 280px;
+    align-items: end;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.brand-img img{
+    width: 90px;
+}
+
+.preferred-text{
+    height: 130px;
+    display: flex;
+    align-items: end;
+}
+
+.frust-text{
+    display: flex;
+   flex-direction: column;
+    margin-top: 100px;
+}
+
+.bio-text{
+    margin-top: 100px;
+}
+
+
+.Bio{
+    width: 60%;
+    background: #efefef;
+
+}

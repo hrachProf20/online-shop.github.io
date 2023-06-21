@@ -126,6 +126,7 @@ header{
 }
 
 header ul{
+    display: flex;
     line-height: 8vh;
 }
 
@@ -176,17 +177,15 @@ header ul li a:hover{
     }
 
     header ul li {
-        width: 100%;
         transition: all 0.5s ease-in-out;
         text-transform: uppercase;
-        line-height: 70;
     }
 
-    header .link{
-        display: none;
-    }
-
-    .close,
+    header .link {
+    display: flex;
+        justify-content: end;
+   }
+.close,
     .open{
         position: absolute;
         top: 35px;
@@ -199,6 +198,12 @@ header ul li a:hover{
     .open{
         top: 18%;
         right: 30px;
+    }
+
+    .navlink{
+        display: flex;
+        justify-content: end;
+        width: 60%;
     }
 
     .close{
@@ -215,6 +220,9 @@ header ul li a:hover{
         line-height: 60px;
     }
 
+.header{
+    display: block;
+}
 
 @media (max-width: 1400px) and (min-width: 1000px){
     .box h4,span{

@@ -428,7 +428,7 @@ span{
   }
 
   .container{
-    width: 95%;
+    width: 80%;
   }
 
   .btn-primary {
@@ -509,7 +509,7 @@ span{
   }
 
   .container{
-    width: 84%;
+    width: 82%;
   }
 
   .product {
@@ -518,6 +518,5 @@ span{
     justify-content: center;
     align-items: center;
   }
-
 
   }
