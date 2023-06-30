@@ -26,10 +26,11 @@ const Navbar = () => {
                             </li>
 
                             <li>
-                                <Link to='signIn'>Sign in</Link>
+                                <Link to='signUp'>Login in</Link>
                             </li>
+
                             <li>
-                                <Link to='signUp'>Sign Up</Link>
+
                             </li>
                         </ul>
                         <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>

@@ -11,13 +11,26 @@ import {useState} from "react";
 import Cart from "./common/cart/cart";
 import Sdata from "./components/shop/Sdata";
 import Footer from "./common/footer/Footer";
-import User from "./common/header/Menu/User";
-import Navbar from "./common/header/Navbar";
+import Users from "./common/header/Menu/Users";
 import SignIn from "./components/SignIn/Sign-in";
 import SignUp from "./components/SignUp/SignUp";
+import Details from "./components/SignIn/Details";
+
+
+import { render } from 'react-dom';
+import React from "react";
+import {connect, useDispatch, useSelector,} from "react-redux";
+
 
 
 const App = () => {
+  const name =  useSelector(function (state){
+    const dispach = useDispatch();
+    if(SignIn === SignUp) {
+        console.log('havasar')
+    }
+
+    })
     // stpe 1:fetch data from database
    const {productItems} = Data;
     const {ShopItems} = Sdata;
@@ -59,21 +72,25 @@ const App = () => {
                   <Cart cartItem = {cartItem} addToCart={addToCart} decreaseQty={decreaseQty}/>
               </Route>
               <Route path='/user'>
-                  <User />
-              </Route>
-
-              <Route path="/signIn">
-                  <SignIn/>
+                  <Users/>
               </Route>
               <Route path='/signUp'>
                   <SignUp/>
               </Route>
-
+              {/*<Route>*/}
+              {/*    <Details/>*/}
+              {/*</Route>*/}
               <Footer/>
           </Router>
 
+          <h1>
+              {name}
+          </h1>
       </div>
 
   )
 }
 export default App
+
+
+

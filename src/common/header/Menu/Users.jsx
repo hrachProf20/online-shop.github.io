@@ -3,7 +3,7 @@ import React from "react";
 import './Menu.css'
 import UsersItem from "./Users-Item";
 
-const User = () => {
+const Users = () => {
     return(
         <>
             <div className='header-user'>
@@ -13,4 +13,4 @@ const User = () => {
     )
 }
 
-export default User
+export default Users

@@ -1,5 +1,4 @@
-import user from "./user";
-import reyt from "./reyt";
+import userData from "./userData";
 
 const UsersItem = () => {
     return(
@@ -9,7 +8,7 @@ const UsersItem = () => {
                   <img src="/images/users-icon.png" alt=""/>
                   <div className="header-users">
                       {
-                          user.map((value,index) => {
+                          userData.map((value, index) => {
                               return(
                                   <div key={index}>
                                       <div className='desc-userAcc'>
