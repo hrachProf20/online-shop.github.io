@@ -94,3 +94,23 @@ export default App
 
 
 
+
+// import {useState} from "react";
+// import {useDispatch, useSelector} from "react-redux";
+// import {decrement, increment, incrementByAmount} from "./counter/counterSlice";
+//
+// const App = () => {
+//     const {count} = useSelector((state => state.counter))
+//     const dispech = useDispatch()
+//     return(
+//         <div>
+//             <button onClick={() => dispech(increment())}>plus</button>
+//             <p>{count}</p>
+//             <button onClick={() =>  dispech(decrement())}>minus</button>
+//             <br/>
+//             <button onClick={() =>  dispech(incrementByAmount())}>32</button>
+//         </div>
+//     )
+// }
+//
+// export default App

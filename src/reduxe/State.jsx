@@ -1,6 +1,11 @@
+import { configureStore } from '@reduxjs/toolkit'
+import counterReducer from '../counter/counterSlice'
+import {useReducer} from "react";
 
-
-const Store  = createFunction(function (store,action){
-    console.log('hrach')
+export const store = configureStore({
+    reducer: {
+        counter: counterReducer,
+        // user:useReducer;
+    },
 })
-export default Store
+

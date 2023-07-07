@@ -61,7 +61,6 @@ const SignIn = () => {
     const getData = (e) => {
         const {value,name} = e.target;
 
-
         setInpval(() => {
             return{
                 ...inpval,
@@ -101,9 +100,6 @@ const SignIn = () => {
               }
 
             }
-
-
-
         }
     }
 
@@ -147,8 +143,6 @@ const SignIn = () => {
     )
 }
 export default SignIn
-
-
 
 
 ///How To Add Login Authentication to React Applications
