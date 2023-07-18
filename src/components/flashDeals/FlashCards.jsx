@@ -6,9 +6,7 @@ const NextArrow = (props) => {
     return(
         <div className="control-btn" onClick={onClick}>
             <button className="next">
-                <i className="fa fa-long-arrow-alt-right">
-
-                </i>
+                <i className="fa fa-long-arrow-alt-right"></i>
             </button>
         </div>
     )

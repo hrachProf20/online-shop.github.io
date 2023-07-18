@@ -121,7 +121,6 @@ input,button{
 }
 
 .category .box:hover{
-  background: #ffe1ef;
   cursor: pointer;
 }
 

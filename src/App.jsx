@@ -17,20 +17,22 @@ import SignUp from "./components/SignUp/SignUp";
 import Details from "./components/SignIn/Details";
 
 
-import { render } from 'react-dom';
+// import { render } from 'react-dom';
 import React from "react";
 import {connect, useDispatch, useSelector,} from "react-redux";
+import Fashion from "./fashion/Fashion";
+import Electronic from "./components/Electronic";
 
 
 
 const App = () => {
-  const name =  useSelector(function (state){
-    const dispach = useDispatch();
-    if(SignIn === SignUp) {
-        console.log('havasar')
-    }
-
-    })
+  // const name =  useSelector(function (state){
+  //   const dispach = useDispatch();
+  //   if(SignIn === SignUp) {
+  //       console.log('havasar')
+  //   }
+  //
+  //   })
     // stpe 1:fetch data from database
    const {productItems} = Data;
     const {ShopItems} = Sdata;
@@ -77,15 +79,22 @@ const App = () => {
               <Route path='/signUp'>
                   <SignUp/>
               </Route>
+              <Route path='/fashion'>
+                  <Fashion/>
+              </Route>
+
+              <Route path='/electronic'>
+                  <Electronic/>
+              </Route>
               {/*<Route>*/}
               {/*    <Details/>*/}
               {/*</Route>*/}
               <Footer/>
           </Router>
 
-          <h1>
-              {name}
-          </h1>
+          {/*<h1>*/}
+          {/*    {name}*/}
+          {/*</h1>*/}
       </div>
 
   )

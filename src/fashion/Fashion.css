@@ -1,0 +1,91 @@
+.fashion-header{
+    height: auto;
+}
+
+.model-girl {
+    background-image: url("/public/images/fashion-girl.jpg");
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:30px;
+}
+
+
+.model-girl h1{
+    font-size: 80px;
+    color: white;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+.model-girl p {
+    font-size: 25px;
+    color: white;
+}
+
+.model-girl button{
+    cursor:pointer;
+    width: 280px;
+    height: 45px;
+    background: aliceblue;
+    border-radius: 15px;
+    margin-top: 20px;
+    text-transform:uppercase;
+}
+
+.model-girl button:hover{
+    transition:0.5s;
+    opacity:0.8;
+}
+.fashion-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.girl-jacket{
+    padding:10px;
+}
+
+.box-fashion{
+    width: 100%;
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-fashion  img {
+    width: 200px;
+    height: 200px;
+}
+
+.pages-product-span{
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.fashion-item{
+    width: 100%;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 0 3px -1px;
+    display:flex;
+    flex-direction:column;
+}
+
+.star-fashion{
+    color: #efaa28;
+}
+
+.star-fashion i{
+    font-size: 10px;
+}
+
+.star-product{
+    display:flex;
+    width: 50%;
+
+}

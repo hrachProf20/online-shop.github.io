@@ -6,6 +6,24 @@
     font-size: 45px;
 }
 
+.box li:hover{
+    background: #ffe1ef;
+    width: 100%;
+}
+
+.name-categories{
+    display:flex;
+    flex-direction:column;
+}
+
+.name-categories img{
+    padding-top: 12px;
+}
+
+.name-categories a {
+    font-size: 18px;
+}
+
 .homeSlide p {
     margin: 20px 0;
 }
