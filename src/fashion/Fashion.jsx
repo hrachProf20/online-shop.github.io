@@ -2,6 +2,7 @@ import './Fashion.css'
 import FashionShop from "./FashionShop";
 
 const Fashion = () => {
+
     return(
         <>
           <div className="fashion-header">

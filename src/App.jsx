@@ -26,13 +26,9 @@ import Electronic from "./components/Electronic";
 
 
 const App = () => {
-  // const name =  useSelector(function (state){
-  //   const dispach = useDispatch();
-  //   if(SignIn === SignUp) {
-  //       console.log('havasar')
-  //   }
-  //
-  //   })
+
+    const birds = useSelector(state => state.birds)
+
     // stpe 1:fetch data from database
    const {productItems} = Data;
     const {ShopItems} = Sdata;

@@ -12,8 +12,8 @@ const UsersItem = () => {
                               return(
                                   <div key={index}>
                                       <div className='desc-userAcc'>
-                                          <label htmlFor="">{value.label}:</label>
-                                          <h1>{value.desc}</h1>
+                                          <label htmlFor="">{/*{value.label}:*/} aaaa</label>
+                                          <h1>{/*{value.desc}*/} skskk</h1>
                                       </div>
 
 
