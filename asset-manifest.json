@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/online-shop/static/css/main.7aa3ee60.css",
+    "main.js": "/online-shop/static/js/main.ebb1a40f.js",
+    "static/js/787.ecf2960d.chunk.js": "/online-shop/static/js/787.ecf2960d.chunk.js",
+    "static/media/fashion-girl.jpg": "/online-shop/static/media/fashion-girl.209710ee3541a91fa72f.jpg",
+    "static/media/amper.png": "/online-shop/static/media/amper.2dc399f21f810914b7ca.png",
+    "static/media/slick.svg": "/online-shop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/online-shop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/online-shop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/online-shop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/online-shop/index.html",
+    "main.7aa3ee60.css.map": "/online-shop/static/css/main.7aa3ee60.css.map",
+    "main.ebb1a40f.js.map": "/online-shop/static/js/main.ebb1a40f.js.map",
+    "787.ecf2960d.chunk.js.map": "/online-shop/static/js/787.ecf2960d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aa3ee60.css",
+    "static/js/main.ebb1a40f.js"
+  ]
+}
