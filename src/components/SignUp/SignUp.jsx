@@ -39,7 +39,6 @@ const SignUp = () => {
         name:"",
         email:"",
         password:"",
-        phone:"",
     })
     const [data,setData] = useState([])
     console.log(inpval)
@@ -58,18 +57,14 @@ const SignUp = () => {
 
     const addData = (e) => {
         e.preventDefault();
-        const {name,email,phone,password} = inpval;
-
+        const {name,email,password} = inpval;
+        console.log(email)
         if(name === ""){
             alert("name field is required")
         } else if (email === ""){
             alert("email field is required")
         } else if (!email.includes("@")){
             alert("plz enter valid email addres")
-        } else if (phone === ""){
-            alert("phone field is required")
-        } else if (phone.length <=8){
-            alert('phone length grater five ')
         } else if (password === "") {
             alert("password field is required")
         } else if (password.length < 5){
